@@ -1,0 +1,15 @@
+{
+  "budget": 1,
+  "size": 8,
+  "index_error_code": "E_BAD_INDEX",
+  "range_error_code": "E_OUT_OF_RANGE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "bits": "00000000", "reads": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "set", "index": 3 },
+    { "id": 2, "kind": "set", "index": 5 },
+    { "id": 3, "kind": "test", "index": 3 },
+    { "id": 4, "kind": "clear", "index": 3 },
+    { "id": 5, "kind": "test", "index": 3 }
+  ]
+}
